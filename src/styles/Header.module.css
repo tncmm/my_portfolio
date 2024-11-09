@@ -1,0 +1,47 @@
+.header {
+  text-align: center;
+  padding: 4rem 1rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.highlight {
+  color: #61dafb;
+  font-weight: bold;
+}
+
+
+.profileImage {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.socialIcons img {
+  width: 60px;
+  height: 60px;
+}
+
+
+.actionButtons button {
+  margin: 0.5rem;
+}
+
+.description {
+  width: 100%; /* Full width for smaller screens */
+  font-size: clamp(1rem, 2vw, 1.2rem); /* Dynamically adjust font size */
+  padding: 0 1rem; /* Add padding for smaller screens */
+}

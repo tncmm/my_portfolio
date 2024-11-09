@@ -1,0 +1,36 @@
+.languageSwitcher {
+    position: absolute; /* Position it relative to the page */
+    top: 1rem; /* Distance from the top of the page */
+    right: 1rem; /* Distance from the right edge of the page */
+    display: flex;
+    gap: 0.5rem; /* Add spacing between the buttons */
+    z-index: 1000; /* Ensure it appears above other elements */
+  }
+  
+  .button {
+    background: #2d2d2d; /* Dark background for the buttons */
+    color: white; /* White text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 0.5rem 1rem; /* Padding for a consistent size */
+    font-size: 0.9rem; /* Adjust font size */
+    cursor: pointer; /* Change cursor on hover */
+    transition: background 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .button:hover {
+    background: #aad8d3; /* Highlight color on hover */
+    color: black; /* Change text color on hover */
+  }
+  @media (max-width: 768px) {
+    .languageSwitcher {
+      top: 0.5rem;
+      right: 0.5rem;
+    }
+  
+    .button {
+      padding: 0.4rem 0.8rem; /* Reduce button size for smaller screens */
+      font-size: 0.8rem;
+    }
+  }
+  

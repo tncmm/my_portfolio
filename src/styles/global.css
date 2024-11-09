@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  
+    /* Background image styles */
+    background-size: cover; /* Ensures the image covers the entire viewport */
+    background-attachment: fixed; /* Keeps the background fixed during scrolling */
+  
+    color: white; /* Ensures text is readable on a dark background */
+  }
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #61dafb;
+  }
+  
+  button {
+    cursor: pointer;
+    background-color: #61dafb;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  /* Center and limit the width of all sections */
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      padding: 0 0.5rem; /* Reduce padding for smaller screens */
+    }
+  }
+  
+  

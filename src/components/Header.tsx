@@ -9,7 +9,7 @@ const Header: React.FC = () => {
   const { t } = useTranslation();
   const handleDownloadCV = () => {
     const link = document.createElement('a');
-    link.href = '${process.env.PUBLIC_URL}/my-cv.pdf'; // Path to the CV file
+    link.href = '/my-cv.pdf'; // Path to the CV file
     link.download = 'mustafa-tunc-cv.pdf'; // File name for download
     link.click();
   };

@@ -5,7 +5,7 @@
     "duration": "Süre",
     "location": "Konum",
     "description": "Açıklama",
-    "I am a software engineer passionate about creating software. I have a strong background in image processing, frontend development and backend development which helps me in my career. I have worked on various projects that have given me a lot of different experiences about mobile, backend and frontend. In my job, I have enjoyed working with teams and sharing knowledge with others. My goal is to keep learning and to use my skills to make good software that people like to use.": "Yazılım oluşturmaya tutkuyla bağlı bir yazılım mühendisiyim. Görüntü işleme, frontend geliştirme ve backend geliştirme konularında sağlam bir geçmişe sahibim, bu da kariyerimde bana yardımcı oluyor. Mobil, backend ve frontend konularında bana farklı deneyimler kazandıran çeşitli projelerde çalıştım. İşimde ekiplerle çalışmaktan ve başkalarıyla bilgi paylaşmaktan keyif aldım. Amacım, öğrenmeye devam etmek ve yeteneklerimi insanların kullanmaktan hoşlandığı iyi yazılımlar yapmak için kullanmak.",
+    "I am a software engineer passionate about creating software. I have a strong background in image processing, frontend development and backend development which helps me in my career. I have worked on various projects that have given me a lot of different experiences about mobile, backend and frontend. In my job, I have enjoyed working with teams and sharing knowledge with others. My goal is to keep learning and to use my skills to make good software that people like to use.": "Yazılım oluşturmaya tutkuyla bağlı bir bilgisayar mühendisiyim. Görüntü işleme, frontend geliştirme ve backend geliştirme konularında sağlam bir geçmişe sahibim, bu da kariyerimde bana yardımcı oluyor. Mobil, backend ve frontend konularında bana farklı deneyimler kazandıran çeşitli projelerde çalıştım. İşimde ekiplerle çalışmaktan ve başkalarıyla bilgi paylaşmaktan keyif aldım. Amacım, öğrenmeye devam etmek ve yeteneklerimi insanların kullanmaktan hoşlandığı iyi yazılımlar yapmak için kullanmak.",
     "I am developing mobile and web applications!": "Mobil ve web uygulamaları geliştiriyorum!",
     "Contact Me": "Bana Ulaşın",
     "Download CV": "CV İndir",
@@ -38,6 +38,30 @@
     "Remote": "Uzaktan ",
     "Hybrid": "Hibrit ",
     "Turkey": "Türkiye",
-    "Experience":"Deneyimler",
-    "Education & Volunteering":"Eğitim & Gönüllülük"
+    "Experience": "Deneyimler",
+    "Education & Volunteering": "Eğitim & Gönüllülük",
+    "developing": "<highlight>Mobil</highlight> ve <highlight>web uygulamaları</highlight> geliştiriyorum!",
+    "I worked on a multi-channel e-commerce integration project where I was responsible for designing UI and UX and developing mobile apps for both iOS and Android, and backend development to ensure seamless integration and functionality across the platform.": "Hem iOS hem de Android için UI ve UX tasarlamaktan ve mobil uygulamalar geliştirmekten ve platform genelinde sorunsuz entegrasyon ve işlevsellik sağlamak için arka uç geliştirmekten sorumlu olduğum çok kanallı bir e-ticaret entegrasyon projesi üzerinde çalıştım.",
+    "ProjectList": {
+        "AIChatWithVideo": {
+            "title": "AI Chat with Video",
+            "shortDescription": "ZEO Generative AI Hackathon (9-10 Eylül 2023)",
+            "details": "Hackathon'un teması, LLM'lerin gücünü kullanarak daha önce mümkün olmayan bir şeyi 24 saat içinde inşa etmekti.\nBir sohbet formatında istemleri kabul eden ve bir video yanıtı oluşturan bir proje oluşturduk.\nLLM yanıtını bir video senaryosu olarak alarak, bunu Metin-Konuşma'ya dönüştürerek, ilgili animasyonu bularak ve bir video olarak birleştirip sunarak videolar oluşturduk.\nHackathon'da 3. olduk.\nKullanılan teknolojiler: OpenAI ChatGPT API, Remotion, Next.js, React, Google Cloud Text-to-Speech API."
+        },
+        "KiEye": {
+            "title": "Ki-Eye",
+            "shortDescription": "(Eylül 2022 - Haziran 2023)",
+            "details": "Bu proje, doktorlara tedavi sürecinde yardımcı olmak için mobil bir uygulama aracılığıyla Ki-67 indeks yüzdesini (kanser hücrelerinin çoğalma oranı) hesaplar.\nAlanya Alaaddin Keykubat Üniversitesi Eğitim ve Araştırma Hastanesi Patoloji Bölümü'nden alınan 100 farklı hasta örneğiyle yapılan bir çalışmada, yaklaşık %80 başarı oranı elde edilmiştir.\nKullanılan teknolojiler: Node.js, PostgreSQL, TypeScript, Python, OpenCV, Flutter, Provider."
+        },
+        "SmartHome": {
+            "title": "A Smart Home Systems for Hearing Impaired Individuals",
+            "shortDescription": "(Mayıs 2022 - Ekim 2022)",
+            "details": "Bu proje, kapı zili çalındığında mobil uygulama aracılığıyla işitme engelli bireyleri bilgilendirir.\nEv giriş kapısında zil görevi görecek bir devre ve bir mobil uygulamadan oluşur.\nZile basıldığında, uygulamaya bir bildirim gönderilir ve işitme engelli birey, kapıdaki kişiyle iletişim kurmaya başlar.\nİletişim için konuşmadan metne ve metinden konuşmaya dönüştürmeler yapılır.\nProje, TUBITAK 2209 A kapsamında mali destek almıştır.\nKullanılan teknolojiler: WebSocket, ESP32, Google Cloud Speech-to-Text ve Text-to-Speech, Flutter, Firebase."
+        },
+        "WeedRemover": {
+            "title": "Weed Remover",
+            "shortDescription": "Teknofest Tarımsal İnsansız Kara Aracı Yarışması (Aralık 2021 - Haziran 2022)",
+            "details": "Teknofest Tarımsal İnsansız Kara Aracı Yarışması'nda beklenti, mahsul ve yabani otlar gibi çeşitli engeller içeren bir toprak parkurda yabani otlara müdahale eden bir insansız kara aracı oluşturmaktı.\nGeliştirdiğimiz araç, parkurda gezinip engelleri aşabilen, görüntü işleme tekniklerini kullanarak yabani otları algılayıp müdahale edebilen bir yabani ot temizleme aracıdır.\nGörüntü işleme ve tanıma algoritmaları ile kontrol paneli web uygulamasını geliştirdim.\nKullanılan teknolojiler: Python, OpenCV, Keras, WebSocket, JavaScript."
+        }
+    }
 }

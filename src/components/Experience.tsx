@@ -13,7 +13,7 @@ const Experience: React.FC = () => {
         company: 'Mobileriz - '+t("Full-time")+t("Remote"),
         location: 'Izmir, '+t("Turkey"),
         duration: t("July")+' 2024 - '+t("October")+' 2024',
-        description:t("Currently working on an e-commerce integration project, where I am responsible for designing the UI and developing mobile applications for both iOS and Android, and developing backend to ensure seamless integration and functionality across the platform."),
+        description:t("I worked on a multi-channel e-commerce integration project where I was responsible for designing UI and UX and developing mobile apps for both iOS and Android, and backend development to ensure seamless integration and functionality across the platform."),
         usedTech: "Python · Flask · FastAPI · PostgreSQL · Flutter · Riverpod · MVC+S · Push Notification · REST API · Supabase · Docker · Kafka · SQLAlchemy · Flink · Debezium · Hexagonal Architecture · Figma",
       },
       {

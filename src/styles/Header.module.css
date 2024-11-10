@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 .header {
   text-align: center;
   padding: 4rem 1rem;
   border-radius: 10px;
-  margin-bottom: 2rem;
+  margin-bottom: 0rem;
+  font-family: 'Poppins';
 }
 
 .profile {
@@ -12,6 +15,10 @@
 }
 
 .highlight {
+  color: #61dafb;
+  font-weight: bold;
+}
+.name {
   color: #61dafb;
   font-weight: bold;
 }
@@ -27,7 +34,6 @@
 .socialIcons {
   display: flex;
   gap: 1rem;
-  margin-bottom: 1rem;
 }
 
 .socialIcons img {
@@ -36,12 +42,40 @@
 }
 
 
+.actionButtons a {
+  text-decoration: none; /* Remove underline */
+}
+
 .actionButtons button {
+  cursor: pointer;
+  background-color: #61dafb;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
   margin: 0.5rem;
+}
+
+.actionButtons button:hover {
+  opacity: 0.9;
 }
 
 .description {
   width: 100%; /* Full width for smaller screens */
   font-size: clamp(1rem, 2vw, 1.2rem); /* Dynamically adjust font size */
   padding: 0 1rem; /* Add padding for smaller screens */
+  font-family: 'Poppins';
+
+}
+
+.icon {
+  font-size: 2rem; /* Adjust this size as needed */
+  color: #ffffff; /* Optional: Change icon color */
+  transition: transform 0.3s ease; /* Add hover effect for smooth scaling */
+}
+
+.icon:hover {
+  transform: scale(1.2); /* Slight zoom on hover */
+  color: #aad8d3; /* Optional: Change color on hover */
 }

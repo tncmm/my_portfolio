@@ -49,5 +49,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://tncmm.github.io/my_portfolio"
+  "homepage": "https://tncmm.github.io/my_portfolio",
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
+  }
 }

@@ -51,11 +51,7 @@ const Projects: React.FC = () => {
               className={styles.card}
               onClick={() => setSelectedProject(project)}
             >
-              <img
-                src={project.image}
-                alt={project.title}
-                className={styles.cardImage}
-              />
+              
               <h3>{project.title}</h3>
               <p className={styles.shortDescription}>{project.shortDescription}</p>
             </div>
